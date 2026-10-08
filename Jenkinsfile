@@ -75,6 +75,17 @@ pipeline {
                 bat 'kubectl get services cloudflow-service'
             }
         }
+        stage('Diagnose Kubernetes') {
+    steps {
+        bat '''
+            whoami
+            where kubectl
+            kubectl config current-context
+            kubectl config view --minify
+            kubectl get nodes
+        '''
+    }
+}
     }
 
     post {
