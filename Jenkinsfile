@@ -10,7 +10,9 @@ pipeline {
     environment {
         DOCKERHUB_USERNAME = 'junaid404'
         IMAGE_NAME = 'junaid404/cloudflow-dashboard'
+        KUBECONFIG = 'C:/Windows/System32/config/systemprofile/.kube/config'
     }
+    
 
     stages {
         stage('Checkout') {
