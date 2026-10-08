@@ -218,7 +218,7 @@ h1 { font:600 clamp(24px,3vw,32px) 'Space Grotesk',sans-serif; letter-spacing:-1
     <header class="topbar">
       <div>
         <div class="breadcrumb">Workspace / <span id="breadcrumbName">Overview</span></div>
-        <h1 id="pageTitle">Deployment overview</h1>
+        <h1 id="pageTitle">Deployment no overview</h1>
         <p class="subtitle" id="pageSubtitle">Your release workflow at a glance. Build, ship, and scale.</p>
       </div>
       <div class="top-actions">
